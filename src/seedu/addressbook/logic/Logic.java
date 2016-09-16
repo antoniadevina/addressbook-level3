@@ -76,7 +76,8 @@ public class Logic {
     }
 
     /**
-     * Executes the command, updates storage, and returns the result.
+     * Executes the command and returns the result.
+     * If there is any contact deleted or added, data will be saved. 
      *
      * @param command user command
      * @return result of the command
